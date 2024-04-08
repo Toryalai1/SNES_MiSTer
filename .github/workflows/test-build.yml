@@ -32,7 +32,7 @@ jobs:
       # 2 - RTL synthesis
       ##########################################################################
       - name: Run compilation flow
-        run: quartus_sh --flow compile my_project.qpf
+        run: quartus_sh --flow compile SNES.qpf
       ##########################################################################
       # 3 - Upload artifacts
       ##########################################################################
